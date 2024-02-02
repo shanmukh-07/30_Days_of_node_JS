@@ -8,8 +8,6 @@ async function readFileContent(filepath){
         console.log('Error reading File: ,${err}');
     }
 }
-
-
 readFileContent('test_files/Text_Content.txt');
 readFileContent('test_files/Empty_File.txt');
 readFileContent('test_files/No_File.txt');
